@@ -20,7 +20,7 @@
 
     <main class="content-wrapper">
       <!-- //  PROFILE  // -->
-      <section>
+      <section class="resume-section">
         <!-- Start content edits below this line. -->
         <h2>Profile</h2>
         <p>My name is Per Thomas Hille. I am a tech freak and is interested in anything related to technology. <br><br>
@@ -37,7 +37,7 @@
         <!-- End content edits here. -->
       </section>
 
-      <section>
+      <section class="resume-section">
         <h2>Core competence</h2>
         <ul>
         <li>C/C++ for backend</li>
@@ -56,37 +56,49 @@
 
 
       <!-- //  PROJECTS  // -->
-      <section>
+      <section class="resume-section">
         <!-- Start content edits below this line. -->
         <h2>Projects</h2>
-        <section>
+        <section class="project-item">
           <img src="images/project-decoded-youtube-500px.png" srcset="images/project-decoded-youtube-1000px.png 2x" alt="Decoded by PTH">
         </section>
 
+        <section class="project-item"></section>
         <p> Thales	Norway					05.2022 - ongoing <br>
           Role: Developer <br>
           Description: The project is graded in accordance with the Norwegian Security Act and further details can therefore not be given. <br> 
           Technology/Methodology:  C++, Intel SGX. <br>
         </p>
-        <p>
+      </section>
+        
+      <section class="project-item">
+      <p>
           Flekkefjord Elektro   				01.2021 - 04.2022 <br>
           Rolle: Technical Lead, Developer
           Description: R&D project within motor control using Field Oriented Control (FOC).  Continuation of <br> project from 2017, (see detailed description on page 3(put hrf here !!)) <br>
         </p> 
-        
+      </section>
+
+      <section class="project-item">
         <p>
           Thales	Norway					08.2020 - 03.2021 <br>
           Role: R&D cryptography <br>
           Description: The project is graded in accordance with the Norwegian Security Act and further details can therefore not be given.  <br>
           Technology/Methodology:  Intel SGX, NASM, cryptography (AES-GSM), C-ABI, ELF, Rust. GNU Assembler. <br>
         </p>
-        <p>
+      </section>
+      
+      <section class="project-item"> 
+      <p>
         Thales	Norway					11.2020 - 03-2021
             Role: R&D IOT for Military Applications
             Description: The project is graded in accordance with the Norwegian Security Act and further details can therefore not be given.  
             Technology/Methodology:  STM32 – STM8 product line, FreeRTOS. Protobuf, STMCuebeIDE. cryptography (Ascon + AES-CCM, ChaCHa20).
         </p>
-        <p>
+      </section>
+        
+      <section class="project-item">
+      <p>
           KONGSBERG TARGET SYSTEMS						02.2019 - 08.2021 <br>
           Role1: Scrum Coach (+ DevOps), <br>
           Description:  Kongsberg Target Systems makes electronic target targets and is the market leader in Norway. In connection with entering new markets, they want to have better control of their software processes to avoid delays in important deliveries. In this connection, I have been hired to introduce SCRUM / Agile in the company and make recommendations regarding the actual development methodology, especially methodology related to testing and verification.
@@ -98,18 +110,22 @@
 
           Web:  http://www.kongsberg-ts.no/en/ <br>
         </p>
+      </section>
 
+      <section class="project-item">
         <p>
           KONGSBERG FERROTECH:    						03.2019 – 11.2019 <br>
           Role: Tech Lead SW/Embedded, Developer, Scrum Master, System design <br>
         Description:  Kongsberg Ferrotech makes SUVs (Subsea Unmanned Vehicles) for repairing oil and gas lines. A prototype is currently under development and I am responsible technical lead for SW and FW for this prototype. The SW / FW system consists of a control system running on a Linux PC top side (on a boat) that communicates with 8 embedded modules in the ROV running FreeRTOS. Communication takes place via an umbilical over TCP / IP with a protobuf protocol. Configuration of the system is done via XML. In addition to being a tech lead, my task is to implement the protocol including parsing and validation of XML configuration files as well as all other business logic in, state machines etc. that run top page. The graphical interface is made in QT, I have also been involved in this development. <br>
 
-      The programming language for all SW / FW is mainly C ++ with some elements C.<br>
+        The programming language for all SW / FW is mainly C ++ with some elements C.<br>
 
-      Web:  https://www.kferrotech.no/ <br>
-      Technology/Methodology: Systems Engineering, Enterprise Architect, QT, C, C++, Embedded (FreeRTOS), protobuf, XML, XSD, Agile/Scrum, Jira, Confluence, Continuous Integration and regression testing, Network socket programming (UDP&TCP).<br>
+        Web:  https://www.kferrotech.no/ <br>
+        Technology/Methodology: Systems Engineering, Enterprise Architect, QT, C, C++, Embedded (FreeRTOS), protobuf, XML, XSD, Agile/Scrum, Jira, Confluence, Continuous Integration and regression testing, Network socket programming (UDP&TCP).<br>
         </p>
-        
+      </section>
+
+      <section class="project-item"> 
         <p>
 
           SEMCON DEVOTEK/Flekkefjord Elektro   				06.2017 - 11.2019 <br>
@@ -131,7 +147,9 @@
           Web: https://fecreate.com/solutions/  <br>
           Technology/Methodology: C, C++, Python, DSP & Real time Programming, Embedded Linux, DTS/DTB, FreeRTOS, Systems  Engineering (UML and SysML), Jira, Confluence <br>
         </p>
+      </section>
 
+      <section class="project-item">
         <p>
           SEMCON DEVOTEK							10.2017 - 04-2018 <br>
           Role:  Adviser within the field of radiation physics <br>
@@ -141,7 +159,9 @@
 
           Technology/Methodology: Radiation physics, accelerator physics, regulation technique, simulations in Matlab (Octave), Python, literature and patent search. <br>
         </p>
+      </section>
 
+      <section class="project-item">
          <p>
           KONGSBERG NORSPACE     09.2015 – 04.2019 <br>
 
@@ -153,19 +173,27 @@
            Technology/Methodology: C++/C# .NET, Google test (unit testing), Jenkins, JIRA/Confluence, IVI, QT, Scrum/Agile. Visual Studio, TDD <br>
          
           </p> 
+      </section>
 
+
+      <section class="project-item">
          <p>
           PRESENS 								 02.2014 – 05.2015 <br>
           Role: Principal developer, Project Manager <br>
           Description: PRESENS is the market leader in pressure sensors for the oil industry. I was responsible for developing a computer model for pressure and temperature response to a silicon-based pressure sensor. The model was implemented in C++ and has one user interface in LabVIEW and one CLI for Linux. The model is used to calibrate the sensor by loading parameters generated by the model into the sensor and used while to accurately reproduce pressure and temperature on-line with a microcontroller mounted on the sensor. The first part of the job was to improve existing software to automate the entire process of calibration as well as generate test reports in PDF. In phase 2, other types of models were looked at to parameterize the calibration results to improve the accuracy of the sensor, including the use of splines, as well as optimization of the existing model. This work resulted in an improvement in the accuracy of the sensor of about 20%. <br>
           Technology/Methodology: C++, LabVIEW, Linear Algebra <br>
          </p>
+      </section>
+
+        <section class="project-item">
          <p> 
          DATA RESPONS							     	        04.2013 – 12.2013 <br>
           Role: Senior developer, Sales <br>
           Description: In periods where I have not been on assignment with customers, I have participated in planning and estimation in connection with sales of new projects. I have implemented a common framework (C ++) for regression testing and continuous integration against different HW platforms from a centralized building Server. The framework has one API against JENKINS on the one hand and one Interface over TCP / IP with password less SSH against various embedded Linux systems on the other side. I have also been responsible for maintenance and support of software developed by Data Respons for existing customers made by developers who have left the company.
          </p>
+        </section>
 
+        <section class="project-item">
          <p>
           VESTAS/OCAS								        11.2012 – 04.2013 <br>
           Role: Project Manager, senior developer, planning and sales.<br>
@@ -173,6 +201,9 @@
 
           Technology/Methodology: Agile/SCRUM, Confluence, JIRA, Linux(uClinux), Barebox, C, C++
          </p>
+        </section>
+
+        <section class="project-item">
          <p>
            Det Norske Veritas (later HalfWave)				        08.2011 – 09.2012 <br>
            Role: Project Manager, senior developer <br>
@@ -197,6 +228,9 @@
             Web: http://www.halfwave.com/technology/art-scan <br>
             Technology/Methodology: C/C++, Agile/SCRUM, Confluence, Jira, Embedded Linux (uClinux), Barebox, Buildroot, uBoot, QT, Make.
          </p>
+        </section>
+
+        <section class="project-item">
           <p>
           YALE University /CERN							        11.2009 – 07.2011 <br>
             Role: Researcher, shift leader, Developer. <br>
@@ -205,9 +239,10 @@
             In addition, I have also worked both as a shift leader and crew on the ALICE experiment at the LHC during the initial tests of the detector and LHC accelerator complex in 2011. 
             Technology/Methodology: C/C++, GRID computing, Neural Networks, Statistical signal processing.
          </p>
+        </section>
 
+        <section class="project-item">
          <p>
-
           YALE University								        01.2009 – 10.2009 <br>
           Role: Researcher, Implementation of embedded Linux Software (ARM/uClinux) & analyses software, reporting to the US Department of Energy (DOE) <br>
           Description: I was responsible for calibrating one of the particle detectors, EMCAL, for the ALICE experiment at CERN with cosmic rays (muons). EMCAL is the electromagnetic calorimeter for the ALICE experiment (The Big Bang experiment). EMCAL measures high-energy gamma rays that are an important observable in Big Bang cosmology. It is common to calibrate such detectors with cosmic rays that hit the earth at a rate of about 100 / m2.sec. <br>
@@ -216,7 +251,9 @@
           
           Technology/Methodology: Linux, Embedded Linux, C/C++, Python, Statistical signal processing. <br>
          </p> 
-         
+        </section> 
+
+        <section class="project-item">
          <p>
           CERN									         01.2007 -12.2008 <br>
           Role: Researcher, software coordinator <br>
@@ -226,7 +263,9 @@
           
           Technology/Methodology: Linux, C/C++, LabVIEW <br>
          </p>
-         
+        </section>
+
+        <section class="project-item">
          <p>
           CERN									        01.2006 – 09.2007 <br>
           Role: Commissioning Coordinator <br>
@@ -234,11 +273,11 @@
           The work consisted of debugging electronics, measuring noise conditions, verifying signal integrity, implementing software for detector control and monitoring (Embedded Linux, C / C ++). Testing and verification of firmware for checking ASICs that control the reading of experimental data. <br>
           Technology/Methodology: Linux, Embedded Linux, C/C++.
          </p>
-
+        </section>
 
         <!-- To add more items, copy this whole <section></section> block-->
 
-      <section>
+        <section class="project-item">
         <img src="images/project-decoded-youtube-500px.png" srcset="images/project-decoded-youtube-1000px.png 2x" alt="Decoded by Christina YouTube video thumbnails">
         <h3>Decoded by Christina</h3>
         <p>Videos, tutorials and a newsletter focusing on HTML, CSS and working in tech. Each video focuses on one HTML or CSS concept. I go over how it works, when to use it and show some real world examples. The companion articles are also posted on Medium as an alternative to video content.</p>
@@ -247,14 +286,14 @@
         <a class="btn" href="https://bychristina.substack.com/" target="_blank">Newsletter</a>
       </section>
 
-      <section>
+      <section class="project-item">
         <img src="images/project-courses-500px.png" srcset="images/project-courses-1000px.png 2x" alt="List of course names and thumbnails">
         <h3>Web Development Courses</h3>
         <p>Developed content and instruction for various web development courses including CSS Essential Training, Getting Your Website Online, Getting Your First Job as a Web Developer and more.</p>
         <a class="btn" href="https://christinatruong.com/courses/" target="_blank">Courses</a>
       </section>
 
-      <section>
+      <section class="project-item">
         <img src="images/project-troy-podcast-500px.png" srcset="images/project-troy-podcast-1000px.png 2x" alt="The TROY podcast website homepage">
         <h3>They Reminisce Over You Podcast</h3>
         <p>A podcast that celebrates the best in music, movies, and TV from the past. Hosted by knowledgeable and passionate fans of the genres, Christina and Miguel delve into the careers and legacies of some of the biggest names in hip hop, R&B, and pop culture. Join us as we reminisce over the artists that have shaped our lives and continue to influence popular culture today. (I also built the website of course!)</p>
@@ -263,18 +302,16 @@
         <a class="btn" href="https://open.spotify.com/show/7JsQ0j7qldRFpHt63AI8Cn" target="_blank">Spotify</a>
       </section>
       
-      <section>
+      <section class="project-item">
         <img src="images/project-the-wire-ipsum-500px.png" srcset="images/project-the-wire-ipsum-1000px.png 2x" alt="The Wire Ipsum quote generator website">
         <h3>The Wire Ipsum</h3>
         <p>After coming back from teaching a JavaScript workshop, I felt inspired to create something just for fun. I realized that of all the placeholder text/lorem ipsum generators available, there was nothing for HBO’s The Wire fans. Generate some content for your projects today. (Warning: Contains explicit language.)</p>
         <a class="btn" href="https://thewireipsum.com" target="_blank">Website</a>
       </section>
-    </section>
-
-
+    
 
       <!-- //  WORK EXPERIENCE  // -->
-      <section>
+        <section class="resume-section">
         <!-- Start content edits below this line.  -->
         <h2>Work Experience</h2>
         <!-- <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p> -->
@@ -329,11 +366,13 @@
           Various jobs / temporary positions as a teacher in upper secondary and upper secondary school <br>
           Environmental therapist at Blakstad and Ullevål hospital <br>
         </li>  
-
+        </section>
 
 
         <!-- To add more items, copy this whole <section></section> block -->
+        
         <section>
+
           <h3>Job title</h3>
           <p>Company Name</p>
           <p>Date at job</p>
@@ -348,30 +387,35 @@
         </section>
 
         <!-- End content edits here. -->
-      </section>
+    
 
       <!-- //  EDUCATION & CERTIFICATIONS  // -->
-      <section>
+      
+        <section class="resume-section">
         <!-- Start content edits below this line.  -->
         <h2>Education</h2>
         <!-- To add more items, copy this whole <section></section> block -->
-        <section>
+        
+        <section class="project-item">
           <h3>2005-2009.  CERN / University i Oslo</h3>
           <p>PhD in instrumentation and data analysis for nuclear physics.</p>
         </section>
-        <section>
+        
+        <section class="project-item">
           <h3>2003-2005. University i Oslo</h3>
           <p> Master in electronics (instrumentation)</p>
         </section>
-        <section>
+        
+        <section class="project-item">
           <h3>2001-2001. University i Oslo</h3>
           <p>Practical Pedagogical Education (PPU) </p>
         </section>
-        <section>
+
+        <section class="project-item">
           <h3>2005. CERN School of Computing</h3>
           <p> Scientific software development </p>
         </section>
-
+        </section>
 
 
         <!-- End content edits here. -->
