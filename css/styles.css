@@ -1,0 +1,13 @@
+body {
+    background: paleturquoise;
+}
+
+#highlight
+{
+    background: yellow;
+}
+
+.large-text {
+    font-size: 26px;
+
+}
