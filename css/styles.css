@@ -1,8 +1,25 @@
 /* GLOBAL STYLES
 --------------------------- */
+html 
+{
+    box-sizing: border-box;
+
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+html, body 
+{
+    height: 100;
+}
+
 body {
     /* background: paleturquoise; */
-    background: #f6f6f6;   
+    background: #f6f6f6;
+    margin: 0;   
 }
 
 /* links */
@@ -48,6 +65,13 @@ footer a:hover
     text-decoration: none;
 }
 
+.content-wrapper
+{
+     margin: 0 auto;
+     padding: 30px;
+     max-width: 900px;
+
+}
 
 /* HOME
 -------------------------; */
@@ -69,3 +93,34 @@ footer
     background: #222;
     color: #d3d4d6;
 }
+
+
+.socials
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li
+{
+    display: inline-block;
+}
+
+.socials img
+{
+    width: 32px;
+
+}
+
+/* RESUME
+--------------------- */
+
+.resume header::before
+{
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
