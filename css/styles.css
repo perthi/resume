@@ -111,6 +111,11 @@ footer a:hover {
 
 /* Work Experience
 ------------------------------------*/
+.work-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 
 /* Education
 ------------------------------------*/
